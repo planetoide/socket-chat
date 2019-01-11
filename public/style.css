@@ -1,0 +1,86 @@
+* {
+    box-sizing: border-box;
+}
+body{
+    background-color: greenyellow;
+}
+
+h2{
+    font-size: 18px;
+    /* display: inline-block; */
+    margin: 10px 0px;
+    text-align: center;
+    color: greenyellow;
+}
+
+#main{
+    max-width: 30%;
+    padding: 15px;
+    margin: 30px auto;
+    background-color: rgb(51, 51, 51);
+    box-shadow: 1px 3px 5px rgba(0,0,0,0.05);
+    border-radius: 2px;
+}
+
+#chat-ventana{
+    height: 30vh;
+    overflow: auto;
+    background: #f9f9f9;
+    overflow: auto;
+    margin-bottom: 20px;
+}
+
+#output p{
+    padding: 14px 0px;
+    margin: 0 20px;
+    border-bottom: 1px solid #e9e9e9;
+    color: #555;
+}
+
+#feedback p{
+    color: #aaa;
+    padding: 14px 0px;
+    margin: 0 20px;
+}
+
+#output strong{
+    padding: 3px;
+    background-color: rgb(51, 51, 51);
+    border-radius: 4px;
+    color: greenyellow;
+}
+
+
+
+input{
+    padding: 10px 20px 2px 5px;
+    border: 0;
+    display: block;
+    width: 100%;
+    background-color: rgb(51, 51, 51);
+    border-bottom: 1px solid greenyellow;
+    font-size: 16px;
+    margin-bottom: 20px;
+    color: #fff;
+}
+input:focus {
+    outline: none;
+    border-bottom: 1px solid greenyellow;
+}
+button{
+    background: greenyellow;
+    color:rgb(51, 51, 51);
+    font-size: 18px;
+    border: 0;
+    padding: 12px 0;
+    width: 100%;
+    border-radius: 0 0 2px 2px;
+}
+button:hover {
+    background: rgb(168, 241, 59);
+    cursor: pointer;
+}
+button:focus {
+    outline: none;
+}
+
